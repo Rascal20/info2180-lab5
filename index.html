@@ -1,10 +1,11 @@
 <!DOCTYPE html>
-<html>
+<html lang="en">
 	<head>
-        <meta charset="utf-8">
+        <meta charset="UTF-8">
+		<meta name="viewport" content="width=device-width, initial-scale=1.0">
 		<title>World Database Lookup</title>
 
-		<!-- you can modify this as needed or to your preference -->
+		<!--you can modify this as needed or to your preference -->
 		<link href="world.css" type="text/css" rel="stylesheet" />
 
 		<!-- you write this -->
@@ -13,20 +14,29 @@
 
 	<body>
 		<header>
-			<h1>World Database Lookup</h1>
+			<div class = "header_container">
+				<div class="header_image">
+					<img src = "Images/Interconnected_World.png" alt="Image of Interconnected World.">
+				</div>
+				<div class="header_text">
+					<h1>World Database Lookup</h1>
+				</div>
+			</div>
 		</header>
 
 		<main>
 			<div id="controls">
-				<label for="country">Country:</label>
-				<input id="country" type="search" name="country" placeholder="Enter country name" />
-				<button id="lookup">Lookup</button>
+				<label for="country">
+					Country:
+				</label>
+				<input id="country" type="search" name="country" placeholder="Enter a country name" />
+				<button id="lookup">
+					Lookup Country
+				</button>
 			</div>
-			
 			<div id="result">
 				<!-- countries will appear here -->
 			</div>
 		</main>
-
 	</body>
 </html>
