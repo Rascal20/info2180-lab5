@@ -60,7 +60,7 @@ main{
     margin-left: 10px;
     height: 40px;
     border-radius: 5px;
-    background-color: rgb(81, 160, 81);
+    
     color: whitesmoke;
     font-size: 13px;
     text-transform: uppercase;
@@ -86,3 +86,10 @@ tr:nth-child(odd) {
 tr:nth-child(even) {
     background: #f0f7ff
 }
+#lookup{
+    background-color: rgb(72, 185, 138);
+}
+#lookupCity{
+    background-color: rgb(69, 93, 228);
+}
+
