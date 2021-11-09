@@ -68,8 +68,21 @@ main{
     font-family: 'Arial Narrow Bold', sans-serif;
 }
 #result{
+    padding-right: auto;
+    padding-left: auto;
+} 
+table {
+    border: 1px solid lightgray;
+    width: 70%;
+    align-items: center;
+}
+.showTable{
     margin-left: auto;
     margin-right: auto;
-    align-items: center;
-    height: auto;
+}
+tr:nth-child(odd) {
+    background: #e6f2ff
+}
+tr:nth-child(even) {
+    background: #f0f7ff
 }
